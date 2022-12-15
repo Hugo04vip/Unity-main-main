@@ -333,19 +333,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6165602854018908550, guid: 3583e2e0a00771343913c76e0dde1f11, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.5297538
       objectReference: {fileID: 0}
     - target: {fileID: 6165602854018908550, guid: 3583e2e0a00771343913c76e0dde1f11, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.4775413
       objectReference: {fileID: 0}
     - target: {fileID: 6165602854018908550, guid: 3583e2e0a00771343913c76e0dde1f11, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.3
+      value: 23.083984
       objectReference: {fileID: 0}
     - target: {fileID: 6165602854018908550, guid: 3583e2e0a00771343913c76e0dde1f11, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.01
+      value: -18.794327
       objectReference: {fileID: 0}
     - target: {fileID: 6165602854018908550, guid: 3583e2e0a00771343913c76e0dde1f11, type: 3}
       propertyPath: m_LocalPosition.z
@@ -427,7 +427,7 @@ Transform:
   m_Children:
   - {fileID: 1724780611}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1708664081
 GameObject:
@@ -511,7 +511,7 @@ Transform:
   m_LocalScale: {x: 0.2760774, y: 0.25859314, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1708664084
 BoxCollider2D:
@@ -8688,6 +8688,7 @@ GameObject:
   - component: {fileID: 2121967048}
   - component: {fileID: 2121967047}
   - component: {fileID: 2121967046}
+  - component: {fileID: 2121967050}
   m_Layer: 0
   m_Name: Robot (1)
   m_TagString: Untagged
@@ -8703,8 +8704,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121967044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.3, y: -9.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 23.083984, y: -18.794327, z: 0}
+  m_LocalScale: {x: 1.5297538, y: 1.4775413, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -8822,6 +8823,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2121967050
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121967044}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &734537533112340907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8831,7 +8851,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 734537533926313093, guid: 24af71e6b9ad44744b2545802d71fd11, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 734537533926313093, guid: 24af71e6b9ad44744b2545802d71fd11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9177,7 +9197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8925927467123639556, guid: aeb11629b1343e24b8f0a01998a1030f, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8925927467123639556, guid: aeb11629b1343e24b8f0a01998a1030f, type: 3}
       propertyPath: m_LocalPosition.x
